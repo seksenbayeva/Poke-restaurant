@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@700&display=swap');body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+.title_1 h3 {
+    width: 837px;
+    height: 114px;
+    flex-shrink: 0;
+    color: #E98712;
+    text-align: right;
+    font-family: Lora;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+  
+.title_1 h4 {
+    width: 307px;
+    height: 109px;
+    flex-shrink: 0;
+    color: #656363;;
+    text-align: right;
+    font-family: Lora;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 300px;
+    margin-top: -80px;
+}
+
+.title_1 .ingredient-list {
+    color: #656363;;
+    font-family: Lora;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 620px;
+    margin-top: -169px;
+}
+
+.gallery img {
+    width: 393px;
+    height: 361px;
+    flex-shrink: 0;
+    margin-left: 242px;
+}
+
+.gallery_2 img {
+    width: 254px;
+    height: 261px;
+    flex-shrink: 0;
+    margin-left: 600px;
+    margin-top: -270px;
+}
+
+.gallery_3 img {
+    width: 794px;
+    height: 422px;
+    flex-shrink: 0;
+    margin-left: 150px;
+}
+
+.price h4 {
+    color: #000;
+    text-align: center;
+    font-family: Lora;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 268px;
+    height: 84px;
+    margin-left: 450px;
+}
+
+.dishes_1 h5 {
+    color: #8FB403;
+    text-align: right;
+    font-family: Lora;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 60px;
+}
+
+a {
+    text-decoration: none; /* Убирает подчеркивание с текста ссылок */
+  }
+
+.dishes_2 h5 {
+    color: #E24768;
+    text-align: right;
+    font-family: Lora;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 60px;
+    position: relative; 
+    top: -50px;
+} 
+.button {
+    width: 230px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #00705C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FEFEFE;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-left: 520px;
+    margin-top: 5px;
+
+}

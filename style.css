@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@700&display=swap');
+body {
+    font-family: Lora, Montserrat;
+}
+
+.header {
+  top: 20px; 
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 90%;
+  left: 20px; /* Adjust the left position as needed */
+  transform: translateY(-50%);
+}
+
+.logo img {
+  width: 300px;
+  height: 127px;
+  margin-left: -40px;
+  margin-bottom: 35px;
+}
+
+.menu {
+  margin-left: 0px; /* Adjust the margin as needed */
+  margin-bottom: -220px;
+}
+
+.menu li {
+  margin-right: 50px;
+  
+}
+
+.menu li:first-child {
+  margin-left: 350px;
+  word-spacing: 50;
+  
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.dish_1 img {
+    margin-left: 10px;
+    max-width: 100%;
+    margin-bottom: 250px;
+    
+}
+
+.dish_3 img {
+    max-width: 60%; /* Максимальная ширина будет равна размеру родительского контейнера */
+    height: auto; /* Автоматически рассчитывает высоту на основе ширины */
+    margin-left: -60px;
+    margin-top: 150px;
+}
+
+/* Верхние края */
+.dish_1 {
+    height: 150vh;
+    display: flex;
+    align-items: center;
+}
+
+.dish_1 p {
+    color: #656363;
+    text-align: right;
+    font-family: Lora;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 478px;
+    margin-top: 50px;
+}
+
+.dish_1 .flex-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.text-content {
+    flex: 1; 
+    position: inherit;
+
+  } 
+
+a {
+    text-decoration: none; /* Убирает подчеркивание с текста ссылок */
+  }
+  
+.dish_2 img {
+    margin-left: 30px;
+    max-width: 45%;
+    margin-top: -400px;
+
+  }
+  
+.text-content h2, .text-content p {
+    margin: 10;
+    width: 605px;
+    height: 188px;
+  }
+  
+.text-content h2 {
+    margin-bottom: -40px;
+  }
+  
+  .text-content a {
+    margin-right: -10px;
+  }
+  
+.dish_1 p {
+  padding-bottom: -100px;
+}
+.dish_1 h2 {
+    color: #E98712;
+    text-align: right;
+    font-family: Lora;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 100px;
+    margin-top: -150px;
+
+}
+
+.dish_2 h2{
+  color: #8FB403;
+  text-align: right;
+  font-family: Lora;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.dish_3 h2{
+  color: #E24768;
+  text-align: right;
+  font-family: Lora;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 500px;
+  margin-top: -500px;
+}
+.dish_2 p {
+  color: #656363;
+  text-align: right;
+  font-family: Lora;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 478px;
+  margin-top: -10px;
+}
+
+.dish_3 p {
+  color: #656363;
+  text-align: right;
+  font-family: Lora;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 478px;
+  margin-left: 630px;
+  margin-top: 150px;
+}
+
+.dish_2 .text-content h2 {
+  position: relative; /* Устанавливаем позицию как относительную */
+  top: -50px; /* Поднимаем заголовок вверх на 50px */
+}
+
+
+.dish_2 h2 {
+  margin-left: 500px;
+  margin-top: -450px;
+}
+
+.dish_2 p {
+  margin-left: 630px;
+}
+
+.button {
+  width: 170px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #00705C;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #F5F5F5;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header .button{
+  margin-top: 50px;
+}
+
+.cafe {
+  position: relative;
+}
+
+.cafe img {
+  width: 1250px;
+  margin-top: 100px;
+}
+
+.cafe {
+  position: relative;
+}
+
+.cafe .button {
+  position: absolute;
+  bottom: 60px; /* Измените значение, чтобы опустить кнопку */
+  left: 12%; /* Измените значение, чтобы выровнять кнопку по горизонтали */
+  transform: translateX(-50%); /* Центрирует кнопку горизонтально */
+}
+
+
+.cafe {
+  position: relative;
+}
+
+.cafe {
+  position: relative;
+  top: 20px;
+}
+
+.footer {
+  background: rgba(152, 251, 152, 0.36);
+  height: 320px;
+
+}
+
+.footer h3 {
+  padding-top: 50px;
+  width: 253px;
+  height: 47px;
+  color: #656363 ;
+  font-family: Lora;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-left: 100px;
+}
+
+.footer p {
+  color: #656363;
+  font-family: Lora;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 277px;
+  height: 43px;
+  margin-left: 100px;
+  padding-top: -50px;
+}
+
+.footer p:nth-child(4) {
+  color: #656363;
+  width: 644px;
+  height: 60px;
+  margin-left: 400px;
+  padding-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.feedback { 
+  width: 1240px;
+  height: 500px;
+  background: #FCFFEE;
+
+}
+
+.feedback h5 {
+  width: 924px;
+  height: 93px;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 50px;
+  margin-left: 140px;
+}
+
+.feedback img {
+  margin-left: 520px;
+  width: 163px;
+  height: 193px;
+}
+
+.feedback p {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 575px;
+  margin-top: -30px;
+}
+
+.feedback h6 {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 550px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) { 
+  body {
+    font-family: Lora, Montserrat;
+}
+
+  .header {
+    top: 20px; 
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .logo {
+    position: absolute;
+    top: 90%;
+    left: 20px; /* Adjust the left position as needed */
+    transform: translateY(-50%);
+  }
+
+  .logo img {
+    width: 300px;
+    height: 127px;
+    margin-left: -40px;
+    margin-bottom: 35px;
+  }
+
+  .menu {
+    margin-left: 0px; /* Adjust the margin as needed */
+    margin-bottom: -220px;
+  }
+
+  .menu li {
+    margin-right: 50px;
+    
+  }
+
+  .menu li:first-child {
+    margin-left: 350px;
+    word-spacing: 50;
+    
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .dish_1 img {
+    max-width: 100%; /* Адаптивная ширина изображения */
+  }
+
+  .dish_3 img {
+      max-width: 60%; /* Максимальная ширина будет равна размеру родительского контейнера */
+      height: auto; 
+      margin-left: -60px;
+      margin-top: 150px;
+  }
+
+  /* Верхние края */
+  .dish_1 {
+    /* height: auto !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important; */
+    
+  }
+
+
+  .dish_1 p {
+      color: #656363;
+      text-align: right;
+      font-family: Lora;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      width: 478px;
+      margin-top: 50px;
+      padding-bottom: -150px;
+  }
+
+  .dish_1 .flex-container {
+    height: 44vh;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    }
+    
+  .text-content {
+      flex: 1; 
+      position: inherit;
+
+    } 
+
+  a {
+      text-decoration: none; /* Убирает подчеркивание с текста ссылок */
+    }
+    
+  .dish_2 img {
+      margin-left: 30px;
+      max-width: 45%;
+      margin-top: -400px;
+
+    }
+    
+  .text-content h2, .text-content p {
+      margin: 10;
+      width: 605px;
+      height: 188px;
+    }
+    
+  .text-content h2 {
+      margin-bottom: -40px;
+    }
+    
+    .text-content a {
+      margin-right: -10px;
+    }
+    
+  .dish_1 p {
+    margin-bottom: 100px;
+  }
+  .dish_1 h2 {
+    color: #E98712;
+    text-align: right;
+    font-family: Lora;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 100px;
+    margin-top: -150px;
+
+  }
+
+  .dish_2 h2{
+    color: #8FB403;
+    text-align: right;
+    font-family: Lora;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .dish_3 h2{
+    color: #E24768;
+    text-align: right;
+    font-family: Lora;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 500px;
+    margin-top: -500px;
+  }
+  .dish_2 p {
+    color: #656363;
+    text-align: right;
+    font-family: Lora;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 478px;
+    margin-top: -10px;
+  }
+
+  .dish_3 p {
+    color: #656363;
+    text-align: right;
+    font-family: Lora;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 478px;
+    margin-left: 630px;
+    margin-top: 150px;
+  }
+
+  .dish_2 .text-content h2 {
+    position: relative; /* Устанавливаем позицию как относительную */
+    top: -50px; /* Поднимаем заголовок вверх на 50px */
+  }
+
+
+  .dish_2 h2 {
+    margin-left: 500px;
+    margin-top: -450px;
+  }
+
+  .dish_2 p {
+    margin-left: 630px;
+  }
+
+  .button {
+    width: 170px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #00705C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #F5F5F5;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .header .button{
+    margin-top: 50px;
+  }
+
+  .cafe {
+    position: relative;
+  }
+
+  .cafe img {
+    width: 1250px;
+    margin-top: 100px;
+  }
+
+  .cafe {
+    position: relative;
+  }
+
+  .cafe .button {
+    position: absolute;
+    bottom: 60px; /* Измените значение, чтобы опустить кнопку */
+    left: 12%; /* Измените значение, чтобы выровнять кнопку по горизонтали */
+    transform: translateX(-50%); /* Центрирует кнопку горизонтально */
+  }
+
+
+  .cafe {
+    position: relative;
+  }
+
+  .cafe {
+    position: relative;
+    top: 20px;
+  }
+
+  .footer {
+    background: rgba(152, 251, 152, 0.36);
+    height: 320px;
+
+  }
+
+  .footer h3 {
+    padding-top: 50px;
+    width: 253px;
+    height: 47px;
+    color: #656363 ;
+    font-family: Lora;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 100px;
+  }
+
+  .footer p {
+    color: #656363;
+    font-family: Lora;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 277px;
+    height: 43px;
+    margin-left: 100px;
+    padding-top: -50px;
+  }
+
+  .footer p:nth-child(4) {
+    color: #656363;
+    width: 644px;
+    height: 60px;
+    margin-left: 400px;
+    padding-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .feedback { 
+    width: 1240px;
+    height: 500px;
+    background: #FCFFEE;
+
+  }
+
+  .feedback h5 {
+    width: 924px;
+    height: 93px;
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 50px;
+    margin-left: 140px;
+  }
+
+  .feedback img {
+    margin-left: 520px;
+    width: 163px;
+    height: 193px;
+  }
+
+  .feedback p {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 575px;
+    margin-top: -30px;
+  }
+
+  .feedback h6 {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 550px;
+    margin-top: 10px;
+  }
+  } 
+
+
